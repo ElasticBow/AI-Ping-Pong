@@ -1,7 +1,8 @@
+
 .heading
 {
-    width: 100%;
-    text-align: left;
+width: 100%;
+text-align: left;
 }
 .heading h3{
     display: inline;
@@ -12,18 +13,29 @@
     border: 1px solid white;
 }
 
-#start, #status
+#start ,#status, #restart
 {
-    font-size: 22px;
+font-size: 22px;
 }
 
-.copy_right_footer 
+.modal-dialog
 {
-    position: fixed;
-    color: white;
-    bottom: 0;
-    width: 100%;
-    background-color: grey;
-    line-height: 3;
-    text-align: center;
+    width: 70%;
 }
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
+}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
